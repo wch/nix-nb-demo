@@ -1,3 +1,6 @@
+Nix flake for Python/JupyterLab development
+===========================================
+
 To start a development shell with programs specified in flake.nix, you can clone this repository, enter the directory, and then run:
 
 ```
