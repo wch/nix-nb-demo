@@ -1,4 +1,12 @@
-To start a development shell with programs specified in flake.nix, run the following:
+To start a development shell with programs specified in flake.nix, you can clone this repository, enter the directory, and then run:
+
+```
+git clone https://github.com/wch/nix-nb-demo.git
+cd nix-nb-demo
+nix develop
+```
+
+But you don't even need to clone the repository! Instead, you can start a development shell like this:
 
 ```
 # Enter development shell
