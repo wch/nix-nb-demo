@@ -30,12 +30,14 @@
           ];
           shellHook = ''
             if [ ! -d venv ]; then
-              echo "Virtual environment not found. Creating one..."
+              echo "Virtual environment not found. Creating one in ./venv/ ..."
               python3 -m venv venv
             fi
 
+            echo "Activating virtual environment in ./venv/ ..."
             . venv/bin/activate
-            echo Hello, welcome to the notebook dev environment!
+
+            echo "Hello, welcome to the Python JupyterLab dev environment!"
           '';
         };
       }
